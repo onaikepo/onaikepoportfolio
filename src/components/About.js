@@ -1,0 +1,30 @@
+import React from "react";
+
+export default function About() {
+    return (
+        <section id="about">
+            <div className="container">
+                <h1>Hi my name is Ade!
+                    <br>I like to build cool web and mobile applications.</br></h1>
+                <p className="mb-8 leading-relaxed">
+                    I have developed web and mobile applications in Java, Javascript and Swift. I have also worked with technologies such as MonogDB, Google Firebase, ElasticSearch, React, NextJS.
+                </p>
+                <div className="flex justify center">
+                    <a href="#contact" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Work with me! </a>
+                    <a
+                        href="#projects"
+                        className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                        See My Past Work
+                    </a>
+                </div>
+            </div>
+            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img
+                    className="object-cover object-center rounded"
+                    alt="hero"
+                    src="https://www.svgrepo.com/show/234844/coding.svg">
+                </img>
+            </div>
+        </section>
+    )
+}
